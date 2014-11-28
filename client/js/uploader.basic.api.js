@@ -364,6 +364,10 @@
                     this._uploadFile(idToUpload);
                 }
             }
+        },
+
+        addCannedFile: function(sessionData) {
+            this._addCannedFile(sessionData);
         }
     };
 
